@@ -1,5 +1,5 @@
 import React from 'react';
-import dashboardImage from './assets/dashboardImage.png';
+import dashboardAdmin from './assets/dashboardAdmin.png';
 
 const Dashboard = ({ isOpen }) => {
     const dashboardStyle = {
@@ -11,7 +11,7 @@ const Dashboard = ({ isOpen }) => {
 
     return (
         <div className='dashboard-image'>
-            <img src={dashboardImage} alt="Dashboard" style={dashboardStyle} />
+            <img src={dashboardAdmin} alt="Dashboard" style={dashboardStyle} />
         </div>
     );
 };

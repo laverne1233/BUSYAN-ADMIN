@@ -3,10 +3,7 @@ import {
     FaTh,
     FaBars,
     FaUsers ,
-    FaBus,
-    FaClock,
-    FaBriefcase ,
-    FaUserTie,
+    FaUserLock ,
     FaBell ,
     FaUser,
     FaSignOutAlt 
@@ -25,28 +22,13 @@ const Sidebar = ({children}) => {
         },
         {
             path:"/People",
-            name:"Manage People",
+            name:"Manage User",
             icon:<FaUsers/>
         },
         {
-            path:"/Bus",
-            name:"Manage Bus",
-            icon:<FaBus/>
-        },
-        {
-            path:"/BusSchedule",
-            name:"Bus Schedule",
-            icon:<FaClock/>
-        },
-        {
             path:"/Job",
-            name:"Manage Job",
-            icon:<FaBriefcase />
-        },
-        {
-            path:"/Applicant",
-            name:"Applicant",
-            icon:<FaUserTie />
+            name:"Account Verification",
+            icon:<FaUserLock  />
         },
         {
             path:"/Notification",
@@ -94,7 +76,7 @@ const Sidebar = ({children}) => {
                             </div>
                         </NavLink>
                     ))}
-                    <div style={{ marginTop: "80px" }} /> {/* Add margin after Profile */}
+                    <div style={{ marginTop: "160px" }} /> {/* Add margin after Profile */}
                     {/* Log Out Button */}
                     <NavLink to="/LogOut" className="link" activeClassName="active">
                         <div className="menu-item">
