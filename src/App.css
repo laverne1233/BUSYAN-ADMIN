@@ -338,7 +338,7 @@ main{
     display: flex;
     margin-top: 30px;
     gap: 20px;
-    margin-bottom:30px
+    margin-bottom:5px
 }
 
 .profile-form-group {
@@ -378,7 +378,7 @@ main{
 .password-form-container {
     display: flex;
     margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .password-form {
@@ -388,6 +388,13 @@ main{
     border-radius: 0px;
 }
 
+.password-form-label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
 
 .password-form-group {
     margin-bottom: 20px;
@@ -409,7 +416,7 @@ main{
 .update-button-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .update-button {

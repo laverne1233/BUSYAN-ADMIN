@@ -9,12 +9,16 @@ const Profile = () => {
                 <div className="profile-form-left">
                     <form>
                         <div className="profile-form-group">
-                            <label htmlFor="full-name">Full Name:</label>
+                            <label htmlFor="first-name">First Name:</label>
                             <input type="text" id="full-name" />
                         </div>
                         <div className="profile-form-group">
-                            <label htmlFor="email">Email:</label>
-                            <input type="email" id="email" />
+                            <label htmlFor="middle-name">Middle Name:</label>
+                            <input type="text" id="middle-name" />
+                        </div>
+                        <div className="profile-form-group">
+                            <label htmlFor="last-name">Last Name:</label>
+                            <input type="text" id="last-name" />
                         </div>
                     </form>
                 </div>
@@ -31,7 +35,7 @@ const Profile = () => {
                     </form>
                 </div>
             </div>
-            <p className="bus-heading">Password</p>
+            <p className="password-form-label">Password</p>
             <div className="password-form-container">
                 <div className="password-form">
                 
